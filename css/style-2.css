@@ -1,0 +1,137 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+4:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+@font-face {
+	font-family: "NovemberLCG";
+	src: url("../fonts/NovemberLCG-Black.woff2") format("woff2"), url("../fonts/NovemberLCG-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NovemberLCG";
+	src: url("../fonts/NovemberLCG-Bold.woff2") format("woff2"), url("../fonts/NovemberLCG-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NovemberLCG";
+	src: url("../fonts/NovemberLCG-Medium.woff2") format("woff2"), url("../fonts/NovemberLCG-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NovemberLCG";
+	src: url("../fonts/NovemberLCG-Light.woff2") format("woff2"), url("../fonts/NovemberLCG-Light.woff2") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+p span{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+[class*="items-title"]{
+font-weight: 700;
+font-size: 20px;
+}
+
+h2 .items {
+	font-weight: 700;
+}
+
+.content {
+	font-family: "NovemberLCG", sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: darkgray;
+	font-weight: 500;
+}
+.subtitle {
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.introduction-water,.content-water {
+	color: deepskyblue;
+	text-decoration: line-through ;
+}
+.items-food > p {
+	color: darkslateblue;
+	text-shadow: 3px 3px 7px #000;
+}
+
+.introduction-insects,.content-insects {
+	line-height:1.5 ;
+	color: darkred;
+}
+ 
+.introduction-animals,.content-animals {
+	letter-spacing: 10px;
+	color: forestgreen;
+}
+ 
+
+.itemstwo {
+	font-family: "Source Serif 4", serif;
+	font-weight: 400;
+}
+.introduction-watertwo,.content-watertwo {
+	font-style: italic;
+}
+.items-foodtwo {
+	text-align: right;
+}
+.items-title-foodtwo {
+	text-shadow: 0px 0px 15px #000;
+	
+}
+.introduction-foodtwo,.content-foodtwo {
+	color: greenyellow;
+}
+ 
+.introduction-insectstwo {
+	color: red;
+}
+.content-insectstwo {
+	text-decoration: underline;
+	font-family: "NovemberLCG", sans-serif;
+	font-weight: 500;
+}
+.items-animalstwo ~ div {
+	color: tomato;
+	text-shadow: 2px 2px 5px #000;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+.introduction-animalstwo{
+	word-spacing: 10px;
+	color: springgreen;
+}
+.introduction-animalstwo + p {
+	text-transform: uppercase;
+	color: sienna;
+	
+}
+
+ul.list li{
+	color: green;
+}
+
+ul.list > li > ul{
+	text-transform: uppercase;
+	color: red;
+	text-decoration: line-through;
+	font-weight: 700;
+}
+
